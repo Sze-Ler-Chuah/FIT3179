@@ -1,6 +1,9 @@
 #vis {
-	top:1000px;
-	bottom: 1000px; 
-	left: 1000px;
-	right: 1000px;
-}
+	position: absolute; /* Position the element relative to its nearest positioned ancestor */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); /* Move it back by half its width and height to truly center it */
+	width: 1000px; /* Set a width for your div */
+	height: 500px; /* Set a height for your div */
+  }
+  
