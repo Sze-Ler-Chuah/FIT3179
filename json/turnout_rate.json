@@ -11,7 +11,7 @@
     "width": 1000,
     "height": 600,
     "data": {
-      "url": "https://raw.githubusercontent.com/Sze-Ler-Chuah/FIT3179/refs/heads/main/json/mas_parliament.json",
+      "url": "https://raw.githubusercontent.com/Sze-Ler-Chuah/FIT3179_Homework_W9/refs/heads/main/json/mas_parliament.json",
       "format": {"type": "topojson", "feature": "malaysia.parlimen"}
     },
     "projection": {"type": "equalEarth"},
@@ -32,7 +32,7 @@
             "lookup": "properties.code_parlimen",
             "from": {
               "data": {
-                "url": "https://raw.githubusercontent.com/Sze-Ler-Chuah/FIT3179/refs/heads/main/data/GE15_Parliament_Elections.csv"
+                "url": "https://raw.githubusercontent.com/Sze-Ler-Chuah/FIT3179_Homework_W9/refs/heads/main/data/GE15_Parliament_Elections.csv"
               },
               "key": "PARLIAMENTARY CODE",
               "fields": ["STATE","TURNOUT","PARLIAMENTARY NAME","PARLIAMENTARY CODE"]
