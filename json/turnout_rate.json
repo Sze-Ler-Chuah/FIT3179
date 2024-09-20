@@ -14,7 +14,7 @@
       "url": "https://raw.githubusercontent.com/Sze-Ler-Chuah/FIT3179_Homework_W9/refs/heads/main/json/mas_parliament.json",
       "format": {"type": "topojson", "feature": "malaysia.parlimen"}
     },
-    "projection": {"type": "equalEarth"},
+    "projection": {"type": "mercator"},
     "layer": [
       {
         "data": {"graticule": {"step": [10, 10]}},
