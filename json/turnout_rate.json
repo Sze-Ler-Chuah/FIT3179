@@ -17,6 +17,10 @@
     "projection": {"type": "equalEarth"},
     "layer": [
       {
+        "data": {"graticule": true},
+        "mark": {"type": "geoshape", "stroke": "lightgray", "strokeWidth": 0.5}
+      },
+      {
         "transform": [
           {
             "calculate": "'Data is not available in ' + datum.properties.name",
@@ -26,13 +30,13 @@
         "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
         "encoding": {"tooltip": {"field": "note"}}
       },
-      {
-        "data": {
-          "url": "h /oceans.topojson",
-          "format": {"type": "topojson", "feature": "oceans"}
-        },
-        "mark": {"type": "geoshape", "fill": "skyblue"}
-      },
+      // {
+      //   "data": {
+      //     "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+      //     "format": {"type": "topojson", "feature": "oceans"}
+      //   },
+      //   "mark": {"type": "geoshape", "fill": "skyblue"}
+      // },
       {
         "transform": [
           {
