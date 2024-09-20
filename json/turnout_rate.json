@@ -27,6 +27,13 @@
         "encoding": {"tooltip": {"field": "note"}}
       },
       {
+        "data": {
+          "url": "h /oceans.topojson",
+          "format": {"type": "topojson", "feature": "oceans"}
+        },
+        "mark": {"type": "geoshape", "fill": "skyblue"}
+      },
+      {
         "transform": [
           {
             "lookup": "properties.code_parlimen",
