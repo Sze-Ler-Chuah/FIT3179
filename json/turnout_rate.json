@@ -25,13 +25,6 @@
         "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5, "strokeOpacity": 0.5, "fill": "none"} 
       },
       {
-        "data": {
-          "url": "./json/neighbour_country.json",
-          "format": {"type": "topojson", "feature": "neighbour_country"}
-        },
-        "mark": {"type": "geoshape", "fill": "lightgreen", "stroke": "white"}
-      },
-      {
         "transform": [
           {
             "calculate": "'Data is not available in ' + datum.properties.name",
@@ -58,7 +51,7 @@
             "as": "Turnout Rate"
           }
         ],
-        "mark": {"type": "geoshape", "stroke": "white"},
+        "mark": {"type": "geoshape", "stroke": "dimgray"},
         "encoding": {
           "color": {
             "field": "TURNOUT",
