@@ -2,7 +2,7 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 1000px; /* Adjust width as needed */
+	width: 1200px; /* Adjust width as needed */
 	height: 800px; /* Adjust height as needed */
 	transform: translate(-50%, -50%);
   }
